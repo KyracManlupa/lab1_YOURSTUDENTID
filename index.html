@@ -3,14 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Laboratory Page</title>
+    <title>Rayko - Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <h1 style="color: #2c3e50; text-align: center;">Hello, World!</h1>
-    <p style="font-size: 18px;">My name is <strong>[Racky S. Manlangit]</strong>.</p>
-    <p style="font-size: 18px;">My Student ID is <strong>[2411600346]</strong>.</p>
-    <p>This is my very first webpage served locally using XAMPP!</p>
+    <header>
+        <h1>Racky S. Manlangit</h1>
+        <p class="tagline">Information Technology Student | Future Cybersecurity Professional</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main id="home">
+
+        <section id="about" class="about-section">
+            <h2>About Me</h2>
+
+            <p>
+                I am an Information Technology student who is interested in
+                web development, programming, networking, and cybersecurity.
+                I enjoy learning new technologies and improving my technical skills.
+            </p>
+
+            <p>
+                I am currently a third-year Information Technology student.
+                My interests include creating websites, learning programming,
+                exploring computer networks, and studying cybersecurity.
+            </p>
+        </section>
+
+
+        <section id="skills" class="skills-section">
+            <h2>My Skills</h2>
+
+            <ul>
+                <li>
+                    <strong>HTML</strong> -
+                    Creating and organizing the structure of webpages.
+                </li>
+
+                <li>
+                    <strong>CSS</strong> -
+                    Designing webpages using colors, spacing, and layouts.
+                </li>
+
+                <li>
+                    <strong>JavaScript</strong> -
+                    Learning how to add functionality and interactivity to webpages.
+                </li>
+
+                <li>
+                    <strong>Python</strong> -
+                    Practicing programming and developing simple applications.
+                </li>
+
+                <li>
+                    <strong>Networking</strong> -
+                    Learning computer networks, IP addressing, and networking concepts.
+                </li>
+            </ul>
+        </section>
+
+
+        <section id="projects" class="projects-section">
+            <h2>My Projects</h2>
+
+            <article class="project-card">
+                <h3>Student Enrollment System</h3>
+                <p>
+                    A desktop-based system designed to manage student information,
+                    subjects, and enrollment records.
+                </p>
+            </article>
+
+            <article class="project-card">
+                <h3>Bookstore Dashboard</h3>
+                <p>
+                    A web-based dashboard that displays bookstore inventory
+                    and organizes book information using HTML, CSS, and JavaScript.
+                </p>
+            </article>
+
+            <article class="project-card">
+                <h3>Personal Portfolio Website</h3>
+                <p>
+                    A personal webpage that presents my background, skills,
+                    interests, and projects using semantic HTML and CSS.
+                </p>
+            </article>
+        </section>
+
+
+        <aside class="quick-facts">
+            <h2>Quick Facts</h2>
+
+            <p><strong>Course:</strong> Information Technology</p>
+            <p><strong>Year Level:</strong> Third Year</p>
+            <p><strong>Interest:</strong> Cybersecurity</p>
+            <p><strong>Hobby:</strong> Playing Guitar</p>
+
+            <blockquote>
+                "The best way to learn is to keep building."
+            </blockquote>
+        </aside>
+
+    </main>
+
+
+    <footer id="contact">
+        <p>&copy; 2026 Racky S. Manlangit. All rights reserved.</p>
+        <p>Contact: racky@example.com</p>
+        <p>Last Updated: August 2026</p>
+    </footer>
 
 </body>
 </html>

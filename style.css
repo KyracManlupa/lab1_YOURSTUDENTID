@@ -1,0 +1,161 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f3f5;
+    color: #2c3e50;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1a5276;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0 0 10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.tagline {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+
+
+nav {
+    background-color: #2980b9;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+
+nav a:hover {
+    background-color: #e67e22;
+    color: white;
+}
+
+
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+
+
+section {
+    background-color: #d4e6f1;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+
+h2 {
+    color: #1a5276;
+    font-size: 1.8rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+h3 {
+    color: #1a5276;
+    font-size: 1.3rem;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+
+.about-section {
+    border-left: 5px solid #e67e22;
+}
+
+.skills-section {
+    border-left: 5px solid #2980b9;
+}
+
+.projects-section {
+    border-left: 5px solid #e67e22;
+}
+
+
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+
+
+.project-card {
+    background-color: #f0f3f5;
+    border: 2px solid #2980b9;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.project-card:hover {
+    border-color: #e67e22;
+}
+
+
+
+aside {
+    background-color: white;
+    padding: 25px;
+    border: 2px solid #2980b9;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+aside h2 {
+    color: #e67e22;
+}
+
+blockquote {
+    border-left: 4px solid #e67e22;
+    padding-left: 15px;
+    margin-left: 0;
+    font-style: italic;
+}
+
+
+
+footer {
+    background-color: #1a5276;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p {
+    margin: 5px 0;
+}
